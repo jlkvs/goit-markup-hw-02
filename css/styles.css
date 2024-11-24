@@ -1,0 +1,99 @@
+/* Загальний скидання */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Палітра кольорів */
+:root {
+    --primary-color: #4d5ae5;
+    /* Основний синій */
+    --primary-hover-color: #3a47b7;
+    /* Синій для hover/focus */
+    --secondary-color: #2e2f42;
+    /* Темний фон */
+    --light-color: #ffffff;
+    /* Білий */
+    --text-color: #333333;
+    /* Основний текст */
+    --text-hover-color: #007bff;
+    /* Текст hover */
+    --background-color: #f5f5f5;
+    /* Світлий фон */
+}
+
+/* Шрифти */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Лого */
+.raleway-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.logo-dark {
+    color: black;
+}
+.logo-light {
+    color: white;
+}
+
+.header a:hover,
+.header a:focus {
+    color: var(--primary-hover-color);
+}
+
+/* Кнопки */
+.button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--primary-hover-color);
+}
+
+/* Посилання */
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: var(--text-hover-color);
+}
+
+/* Темний фон секцій */
+.hero,
+.light-bg {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+/* Списки */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    color: black;
+}
