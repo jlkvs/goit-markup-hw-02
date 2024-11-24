@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <!--Шрифти-->
+    <!-- Шрифти -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Підключення стилів -->
+    <!-- Стилі -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -25,21 +25,21 @@
             <a class="header-nav-link" href="./index.html">Studio</a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="">Portfolio</a>
+            <a class="header-nav-link" href="#">Portfolio</a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="">Contacts</a>
+            <a class="header-nav-link" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address class="header-adress">
+      <address class="header-address">
         <ul class="header-contacts">
-          <li class="header-contacts-items">
+          <li>
             <a class="header-contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-items">
+          <li>
             <a class="header-contacts-link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
@@ -52,7 +52,7 @@
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button">Order Service</button>
       </section>
-      <section>
+      <section class="features">
         <h2 class="section-title">Features</h2>
         <ul>
           <li>
@@ -85,118 +85,59 @@
           </li>
         </ul>
       </section>
-      <section class="team">
-        <h2 class="section-team-title">Our Team</h2>
-        <ul class="section-team-list">
-          <li class="section-team-item">
-            <img
-              src="./images/team/img.jpg"
-              width="264"
-              height="260"
-              alt="Mark Guerrero Product Designer"
-            />
-            <h3 class="section-team-name">Mark Guerrero</h3>
-            <p class="section-team-text">Product Designer</p>
-          </li>
-          <li class="section-team-item">
-            <img
-              src="./images/team/img-2.jpg"
-              width="264"
-              height="260"
-              alt="Tom Ford Frontend Developer"
-            />
-            <h3 class="section-team-name">Tom Ford</h3>
-            <p class="section-team-text">Frontend Developer</p>
-          </li>
-          <li class="section-team-item">
-            <img
-              src="./images/team/img-3.jpg"
-              width="264"
-              height="260"
-              alt="Camila Garcia Marketing"
-            />
-            <h3 class="section-team-name">Camila Garcia</h3>
-            <p class="section-team-text">Marketing</p>
-          </li>
-          <li class="section-team-item">
-            <img
-              src="./images/team/img-4.jpg"
-              width="264"
-              height="260"
-              alt="Daniel Wilson UI Designer"
-            />
-            <h3 class="section-team-name">Daniel Wilson</h3>
-            <p class="section-team-text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
       <section class="portfolio">
         <h2 class="section-title">Our Portfolio</h2>
-        <>
+        <ul>
           <li>
-            <img
-              src="./images/row-1/img.jpg"
-              width="360"
-              height="300"
-              alt="Banking App"
-            />
-            <h3 class="section-portfolio-caption">Banking App</h3>
-            <p class="section-portfolio-type">App</p>
+            <img src="./images/portfolio1.jpg" alt="Banking App" width="360" />
+            <h3 class="portfolio-caption">Banking App</h3>
+            <p class="portfolio-type">App</p>
           </li>
           <li>
             <img
-              src="./images/row-1/img-2.jpg"
-              width="360"
-              height="300"
+              src="./images/portfolio2.jpg"
               alt="Cashless Payment"
+              width="360"
             />
-            <h3 class="section-portfolio-caption">Cashless Payment</h3>
-            <p class="section-portfolio-type">Marketing</p>
+            <h3 class="portfolio-caption">Cashless Payment</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
           <li>
             <img
-              src="./images/row-1/img-3.jpg"
-              width="360"
-              height="300"
+              src="./images/portfolio3.jpg"
               alt="Meditation App"
+              width="360"
             />
-            <h3 class="section-portfolio-caption">Meditation App</h3>
-            <p class="section-portfolio-type">App</p>
+            <h3 class="portfolio-caption">Meditation App</h3>
+            <p class="portfolio-type">App</p>
+          </li>
+          <li>
+            <img src="./images/portfolio4.jpg" alt="Taxi Service" width="360" />
+            <h3 class="portfolio-caption">Taxi Service</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
           <li>
             <img
-              src="./images/row-2/img.jpg"
-              width="360"
-              height="300"
-              alt="Taxi Service"
-            />
-            <h3 class="section-portfolio-caption">Taxi Service</h3>
-            <p class="section-portfolio-type">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/row-2/img-2.jpg"
-              width="360"
-              height="300"
+              src="./images/portfolio5.jpg"
               alt="Screen Illustrations"
+              width="360"
             />
-            <h3 class="section-portfolio-caption">Screen Illustrations</h3>
-            <p class="section-portfolio-type">Design</p>
+            <h3 class="portfolio-caption">Screen Illustrations</h3>
+            <p class="portfolio-type">Design</p>
           </li>
           <li>
             <img
-              src="./images/row-2/img-3.jpg"
-              width="360"
-              height="300"
+              src="./images/portfolio6.jpg"
               alt="Online Courses"
+              width="360"
             />
-            <h3 class="section-portfolio-caption">Online Courses</h3>
-            <p class="section-portfolio-type">Marketing</p>
+            <h3 class="portfolio-caption">Online Courses</h3>
+            <p class="portfolio-type">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="light-bg">
+    <footer class="footer">
       <a class="logo" href="./index.html"
         >Web<span class="logo-light">Studio</span></a
       >
